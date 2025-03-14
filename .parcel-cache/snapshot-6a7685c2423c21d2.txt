@@ -1,0 +1,10 @@
+9
+54C:\Users\Helen Aitai\kta24\KTA24HM_parcel\package.json133862524485899681 0
+48C:\Users\Helen Aitai\kta24\KTA24HM_parcel\app.js133863344236609406 0
+46C:\Users\Helen Aitai\kta24\KTA24HM_parcel\dist133862533763478769 1
+73C:\Users\Helen Aitai\kta24\KTA24HM_parcel\dist\KTA24HM_parcel.3464ddca.js133862526808496657 0
+52C:\Users\Helen Aitai\kta24\KTA24HM_parcel\index.html133863344128795170 0
+59C:\Users\Helen Aitai\kta24\KTA24HM_parcel\package-lock.json133862525595516290 0
+53C:\Users\Helen Aitai\kta24\KTA24HM_parcel\styles.scss133863345599793614 0
+57C:\Users\Helen Aitai\kta24\KTA24HM_parcel\dist\index.html133862533763448424 0
+77C:\Users\Helen Aitai\kta24\KTA24HM_parcel\dist\KTA24HM_parcel.3464ddca.js.map133862526808539425 0

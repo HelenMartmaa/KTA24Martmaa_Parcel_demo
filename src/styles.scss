@@ -1,0 +1,117 @@
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background-color: #feed5a;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: background-color 0.3s ease; //Üleminek taustavärvi vahetamisel
+
+  // Lehe pealkiri
+  h1 {
+    color: #000000;
+    font-size: 60px;
+  }
+}
+
+.radio-container {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 90px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; //Joondab värvivaliku teksti vasakule
+
+  .radio-item {
+    display: flex;
+    align-items: center; //Asetab teksti ringi kõrvale
+    margin-bottom: 5px; //Vahe järgmise nupu vahel 
+
+    .radio-label {
+      font-size: 16px;
+      cursor: pointer;
+      color: #333;
+      font-weight: normal;
+    }
+  }
+}
+
+h2 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  transform: translateY(-50%);
+  padding-left: 20px; //Lisatud vasakpoolne tühi osa
+}
+
+//Menüü kujundus
+.menu-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  .menu {
+    position: relative;
+    margin: 0 20px;
+    cursor: pointer;
+
+    .menu-title {
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 20px;
+      background-color: #292b2c;
+      color: white;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #666;
+      padding: 5px;
+      border-radius: 5px;
+      min-width: 150px;
+      z-index: 2;
+
+      button {
+        display: block;
+        width: 100%;
+        background: none;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: left;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #888;
+        }
+      }
+    }
+
+    &:hover {
+      .dropdown {
+        display: block;
+      }
+    }
+  }
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column; // Paneb elemendid üksteise alla 
+  align-items: center; // Tsentreerib elemendid horisontaalselt 
+  gap: 10px; // Lisab väikese vahe
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row; // Asetab nupud kõrvuti
+  gap: 10px; // Lisab nuppude vahele ruumi
+  margin-top: 10px; // Lisab vahe
+}
